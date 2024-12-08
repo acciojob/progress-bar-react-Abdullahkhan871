@@ -16,7 +16,7 @@ const App = () => {
   }, [bar]);
 
   let outerBar = {
-    width: "50vh",
+    width: "50px",
     height: "20px",
     backgroundColor: "gray",
   };
