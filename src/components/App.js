@@ -29,8 +29,8 @@ const App = () => {
   return (
     <div>
       <h1>Progress Bar</h1>
-      <div className="barOuter" style={outerBar}>
-        <div className="barInner" style={innerBar}></div>
+      <div id="barOuter" style={outerBar}>
+        <div id="barInner" style={innerBar}></div>
       </div>
       <p>{bar}%</p>
     </div>
